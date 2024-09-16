@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Interface</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <h1 class = "main" style="text-align: center; margin-top: 20px;">Anand Bhawan Museum Prayagraj, Uttar Pradesh</h1>
+    <div class="chat-container">
+        <!-- Sidebar Section -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <a href = "login.html" class="login-button" >Login</a>
+                <a href = "register.html"class="register-button">Register</a> 
+            </div>
+            <div class="folders">
+                <div class="folder">Tickets</div>
+                <div class="folder">Schedules</div>
+                <div class="folder">Help</div>
+                <!-- <div class="folder">Clients chats</div> -->
+                <div class="folder">Gallery</div>
+            </div>
+            <!-- <div class="chats">
+                <div class="chat-item">Plan a trip</div>
+                <div class="chat-item">Help me pick</div>
+            </div> -->
+            
+        </div>
+
+        <!-- Chatbox Section -->
+        <div class="chatbox">
+            <div class="welcome-section">
+                <h1>How can I help you today?</h1>
+                <p>BHAVAN BOT has been deplyed by the Ministry of Culture to ease the ticketing process and to provide quick and interactive customer care to visitors
+                    as part of the Smart India Hackathon.
+                </p>
+                <div class="options">
+                    <div class="option">New Chat</div>
+                    <div class="option">Chat History</div>
+                    
+                </div>
+            </div>
+            <div id="chat-output"></div>
+            <div class="input-section">
+                <input type="text" id="user-input" placeholder="Type your prompt here...">
+                <button id="send-btn">Send</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
